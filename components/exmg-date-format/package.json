@@ -1,0 +1,32 @@
+{
+  "name": "exmg-date-format",
+  "private": true,
+  "description": "Lightweight element for formatting dates",
+  "main": "exmg-date-format.html",
+  "version": "2.0.2",
+  "repository": "ExmgElements/exmg-date-format",
+  "keywords": [
+    "Exmg",
+    "ExmgElements",
+    "exmg-date-format",
+    "date",
+    "dates",
+    "format",
+    "formatting"
+  ],
+  "author": "Ex Machina",
+  "devDependencies": {
+    "bower": "latest",
+    "eslint": "^4.11.0",
+    "eslint-config-exmg": "latest",
+    "eslint-plugin-html": "^3.0.0",
+    "polymer-cli": "^1.2.0",
+    "web-component-tester": "^6.4.1"
+  },
+  "homepage": "https://github.com/ExmgElements/",
+  "scripts": {
+    "lint": "polymer lint --rules polymer-2 --input *.html",
+    "eslint": "eslint . --ext js,html --ignore-path .gitignore",
+    "analyze": "polymer analyze --input exmg-date-format.html > analysis.json"
+  }
+}

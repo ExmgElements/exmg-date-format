@@ -1,0 +1,47 @@
+{
+  "name": "exmg-date-format",
+  "description": "Lightweight element for formatting dates",
+  "main": "exmg-date-format.html",
+  "authors": [
+    "Ex Machina"
+  ],
+  "homepage": "http://exmg.github.io/ExmgElements/exmg-date-format/",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ExmgElements/exmg-date-format.git"
+  },
+  "keywords": [
+    "web-components",
+    "web-component",
+    "polymer",
+    "date",
+    "dates",
+    "format",
+    "formatting"
+  ],
+  "license": "MIT License",
+  "dependencies": {
+    "polymer": "Polymer/polymer#^2.4.0"
+  },
+  "devDependencies": {
+    "iron-demo-helpers": "PolymerElements/iron-demo-helpers#^2.0.0",
+    "web-component-tester": "Polymer/web-component-tester#^6.0.0",
+    "webcomponentsjs": "webcomponents/webcomponentsjs#^1.0.0",
+    "test-fixture": "PolymerElements/test-fixture#^3.0.0-rc.1",
+    "promise-polyfill": "PolymerLabs/promise-polyfill#1 - 2",
+    "iron-component-page": "^3.0.1"
+  },
+  "resolutions": {
+    "polymer": "^2.0.0"
+  },
+  "_release": "80321a5d82",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "80321a5d8247b436229b5d08744b6f37a1a63b09"
+  },
+  "_source": "https://github.com/ExmgElements/exmg-date-format.git",
+  "_target": "master",
+  "_originalSource": "ExmgElements/exmg-date-format",
+  "_direct": true
+}

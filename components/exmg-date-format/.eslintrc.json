@@ -1,0 +1,19 @@
+{
+  "extends": "exmg",
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
+  "plugins": [
+    "html"
+  ],
+  "rules": {
+    "no-extend-native": [2, {"exceptions": ["String"]}]
+  },
+  "globals": {
+    "Polymer": true,
+    "Exmg": true,
+    "CustomElements": false
+  }
+}

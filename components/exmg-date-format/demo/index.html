@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+
+    <title>exmg-date-format demo</title>
+
+    <script src="../../webcomponentsjs/webcomponents-lite.js"></script>
+
+    <link rel="import" href="../../iron-demo-helpers/demo-pages-shared-styles.html">
+    <link rel="import" href="../../iron-demo-helpers/demo-snippet.html">
+    <link rel="import" href="../exmg-date-format.html">
+
+    <custom-style>
+      <style is="custom-style" include="demo-pages-shared-styles">
+        demo-snippet {
+          max-width: 600px;
+        }
+      </style>
+    </custom-style>
+  </head>
+  <script>
+    /*
+    // Example of how to set the default date patter in the global scope
+    window.Exmg = window.Exmg || {};
+    window.Exmg.defaultDatePattern = 'dd/MM/yy';
+    */
+  </script>
+  <body>
+    <div class="vertical-section-container centered">
+      <h3>Default example</h3>
+      <demo-snippet>
+        <template>
+          <exmg-date-format timestamp="1493214988336"></exmg-date-format>
+        </template>
+      </demo-snippet>
+      <h3>Different date pattern</h3>
+      <demo-snippet>
+        <template>
+          <exmg-date-format date-pattern="dd/MM/yyyy" timestamp="1493214988336"></exmg-date-format>
+        </template>
+      </demo-snippet>
+    </div>
+  </body>
+</html>
